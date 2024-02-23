@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="main-heading">Sunrise Avenue</h1>
+                <p class="paragraph">Move to what moves you</p>
+                <button class="button1" onclick="display('sectionSunriseAvenue')">Book flat</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSunriseAvenue">
+        <div class="bg-container1">
+            <h1 class="main-heading">Sunrise Avenue</h1>
+            <div class="card-container1 d-flex flex-row" onclick="display('section4BHKFlat')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" height=230 width=100 />
+                <div class="card1">
+                    <h1 class="heading1">3BHK Flat</h1>
+                    <p class="paragraph1">This is fully furnished house with handmade furniture
+                        including a luxury en-suit facilities pack.Its builds-up-Area
+                        is about 1600sq.ft.A spacious home for you to live in </p>
+                </div>
+            </div>
+            <div class="card-container2 d-flex flex-row" onclick="display('section2BHKFlat')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" height=230 width=100 />
+                <div class="card1">
+                    <h1 class="heading1">2BHK Flat</h1>
+                    <p class="paragraph1">A minimalist house made for modern-day families.It is fully furnished with trending furniture
+                        .Its build-up Area is about 1200sq.ft.</p>
+                </div>
+            </div>
+            <div class="card-container3 d-flex flex-row" onclick="display('section3BHKFlat')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" height=230 width=100 />
+                <div class="card1">
+                    <h1 class="heading1">4BHK Flat</h1>
+                    <p class="paragraph1">a contemporary home with more color and vibrancy.
+                        This is fully furnished house with elegant furniture.Its build-up area 3600sq.ft. </p>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <div id="section4BHKFlat">
+        <div class="bg-container2">
+            <div class="first-section">
+
+            </div>
+            <div class="second-section">
+                <h1 class="heading2">Rs 3000/-</h1>
+                <div class="second-section1 d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" height=30 width=30 />
+                    <p class="paragaraph2">D/N 5-2,food street,indore</p>
+                </div>
+                <h1 class="heading2">Description</h1>
+                <p class="paragaraph2">This is fully furnished house with handmade furniture
+                    including a luxury en-suit facilities pack.Its builds-up-Area
+                    is about 1600sq.ft.A spacious home for you to live in </p>
+                <button class="button">confirm</button>
+                <button class="button" onclick="display('sectionSunriseAvenue')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section2BHKFlat">
+        <div class="bg-container2">
+            <div class="first-section">
+
+            </div>
+            <div class="second-section">
+                <h1 class="heading2">Rs 2000/-</h1>
+                <div class="second-section1 d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" height=30 width=30 />
+                    <p class="paragaraph2">D/N 6-2,food street,indore</p>
+                </div>
+                <h1 class="heading2">Description</h1>
+                <p class="paragaraph2">A minimalist house made for modern-day families.It is fully furnished with trending furniture
+                    .Its build-up Area is about 1200sq.ft. </p>
+                <button class="button">confirm</button>
+                <button class="button" onclick="display('sectionSunriseAvenue')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section3BHKFlat">
+        <div class="bg-container2">
+            <div class="first-section">
+
+            </div>
+            <div class="second-section">
+                <h1 class="heading2">Rs 4000/-</h1>
+                <div class="second-section1 d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" height=30 width=30 />
+                    <p class="paragaraph2">D/N 5-2,food street,indore</p>
+                </div>
+                <h1 class="heading2">Description</h1>
+                <p class="paragaraph2">a contemporary home with more color and vibrancy.
+                    This is fully furnished house with elegant furniture.Its build-up area 3600sq.ft. </p>
+                <button class="button">confirm</button>
+                <button class="button" onclick="display('sectionSunriseAvenue')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
